@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayen Mhalla - Portfolio</title>
+    <link rel="stylesheet" href="finalproject.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <a href="#" class="logo"><i class="fas fa-code"></i>Rayen Mhalla</a>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#recommendations">Recommendations</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Rayen Mhalla" class="profile-img">
+                <div class="about-text">
+                    <h1>Hi, I'm Rayen Mhalla!</h1>
+                    <p>I am a full stack developer with 2 years of experience in both application and presentation layers. I have worked on applications and microservices deployed on IBM Cloud. I am an avid user of IBM Watson Services and have worked on Watson Assistant, NLU, Sentiment analyzer to name a few.</p>
+                    <p>My passion for technology started at a young age, and I've been coding since I was 15. I enjoy solving complex problems and creating user-friendly applications that make a difference.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                    <div class="skill-info">
+                        <h3>HTML</h3>
+                        <p>2 years experience</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-icon"><i class="fab fa-js-square"></i></div>
+                    <div class="skill-info">
+                        <h3>JavaScript</h3>
+                        <p>1.5 years experience</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-icon"><i class="fab fa-java"></i></div>
+                    <div class="skill-info">
+                        <h3>Java</h3>
+                        <p>0.5 years experience</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-icon"><i class="fab fa-react"></i></div>
+                    <div class="skill-info">
+                        <h3>React</h3>
+                        <p>1 year experience</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+                    <div class="skill-info">
+                        <h3>Node.js</h3>
+                        <p>1 year experience</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                    <div class="skill-info">
+                        <h3>CSS</h3>
+                        <p>2 years experience</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <div class="project">
+                    <h3><i class="fas fa-robot"></i> Chatbot</h3>
+                    <ul>
+                        <li>Developed a secure website integrated with chatbot for an automobile client</li>
+                        <li>Used HTML, CSS, JavaScript and IBM Watson Assistant</li>
+                        <li>Implemented natural language processing for better user interaction</li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <h3><i class="fas fa-chart-line"></i> Sentiment Analyzer</h3>
+                    <ul>
+                        <li>Developed and deployed a sentiment analyzer for the box reviews section of an eCommerce platform</li>
+                        <li>Utilized IBM Natural Language Understanding (NLU)</li>
+                        <li>Improved customer feedback analysis by 40%</li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <h3><i class="fas fa-shopping-bag"></i> Fashion Website</h3>
+                    <ul>
+                        <li>Created a styled multi-page website for a new player in the fashion industry</li>
+                        <li>Integrated shopping cart functionality</li>
+                        <li>Implemented Stripe for payment processing</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recommendations Section -->
+        <section id="recommendations">
+            <h2>Recommendations</h2>
+            <div class="recommendations-container">
+                <div class="recommendation">
+                    <p class="recommendation-text">Rayen is a very quick learner and quickly grasps key concepts of Web development. He has a great attitude & he is an excellent team player. He has a curious mind and asks the right question. He takes initiative within a team and has potentials to lead the team.</p>
+                    <p class="recommendation-author">- John Smith, Project Manager</p>
+                </div>
+                <div class="recommendation">
+                    <p class="recommendation-text">Working with Rayen has been an awesome experience. He is highly knowledgeable and always goes the extra step to make sure everything is right. For any future projects that need his expertise I would definitely want to work with him again.</p>
+                    <p class="recommendation-author">- Sarah Johnson, Lead Developer</p>
+                </div>
+                <div class="recommendation">
+                    <p class="recommendation-text">I had worked along with Rayen during the initial phase of our venture which needed Web development. He is a committed resource who has in depth knowledge about the domain. He will be an asset for any organization.</p>
+                    <p class="recommendation-author">- Michael Brown, Startup Founder</p>
+                </div>
+            </div>
+
+            <!-- Recommendation Form -->
+            <div class="recommendation-form">
+                <h3>Leave a Recommendation</h3>
+                <form id="recommendationForm">
+                    <div class="form-group">
+                        <label for="name">Name (Optional)</label>
+                        <input type="text" id="name" placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="Your recommendation" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Home Icon -->
+    <a href="#" class="home-icon">
+        <i class="fas fa-home"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Rayen Mhalla. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-codepen"></i></a>
+        </div>
+    </footer>
+
+    <!-- Popup -->
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <button class="close-btn" id="closePopup">&times;</button>
+            <h3>Thank You!</h3>
+            <p>Your recommendation has been submitted successfully.</p>
+            <button id="okButton">OK</button>
+        </div>
+    </div>
+
+    <script src="finalproject.js"></script>
+</body>
+</html>
